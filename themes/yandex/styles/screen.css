@@ -837,3 +837,18 @@ body .slide:first-of-type h2
     background: none;
     border: none;
 }
+
+ul li a {
+    background: none !important;
+    border: none !important;
+}
+
+ul li a:after
+{
+    content: attr(href);
+    color: #555;
+    text-decoration: none;
+    font-size: 80%;
+    display: block;
+    margin-left: 1.9em;
+}

@@ -20,84 +20,84 @@ layout: default
 	<p class="author">{{ site.author.name }}, <br/> {{ site.author.position }}</p>
 </div>
 
-## Поговорим
-* bem-xjst: BEMTREE
-* ...Библиотеки готовых блоков
-* ...Инструменты
-* ...Документация
-* ...Сообщество: разработка, события
-* ...Планы на будущее
-* ...Ваши вопросы
+## **Что такое БЭМ?**
 
-## **BEMTREE**
+## Что такое БЭМ?
+Один раз Мурся спросила, в чем, по мнению Витали, заключается смысл БЭМ.<br><br>
+— БЭМ, — сказал Виталя, любивший сравнения изящные — это умение разлить два полных стакана водки из одной четвертинки.<br><br>
+Из пустой, — добавил Вегед.<br><br>
 
-## BEMTREE
-* Бекенд ничего не знает про представление
-* ...Нужно подготовить данные
-* ...[bem-bemtree-static-project-stub](https://github.com/tadatuta/bem-bemtree-static-project-stub)
-* ...[one-bundle-gulp-watcher](https://github.com/tadatuta/bem-bemtree-static-project-stub/tree/one-bundle-gulp-watcher)
-* ...[bem-express](https://github.com/tadatuta/bem-express)
+Мурся перевела взгляд на Вегеда.<br><br>
+
+И водку не выпить, — молвил Виталя.<br><br>
+
+Вегед удовлетворенно кивнул головой, сказав:<br><br>
+
+— И в стаканы не разливать.
+
+## Что такое БЭМ
+* Методология
+* ...Open Source реализация
+* ...Сообщество
+
+## Лего
+* Использует БЭМ
+* ...Реализует библиотеки портального стиля
+    * ...Ромочка
+    * ...Islands
+    * ...O2
+
+## **Рассылки и клубы**
+
+## Рассылки и клубы. Было
+* lego@
+* lego-dev@
+* lego-team@
+* lego-islands@
+* lego-o2@
+* bem@
+
+## Рассылки и клубы. Стало
+* lego@
+* <del style="color: #ccc">lego-dev@</del>
+* lego-team@
+* <del style="color: #ccc">lego-islands@</del>
+* <del style="color: #ccc">lego-o2@</del>
+* <del style="color: #ccc">bem@</del>
+* ...[Слак](https://lego-team.slack.com/)
+
+## Рассылки и клубы. bem@
+* ru.bem.info/forum
+* ...web-standards.slack.com
+* ...bem-team.slack.com
 
 ## **Библиотеки готовых блоков**
 
 ## Библиотеки готовых блоков
-* [bem-core](https://ru.bem.info/libs/bem-core/)
-* ...[bem-histroy](https://ru.bem.info/libs/bem-histroy/)
-* ...[bem-components](https://ru.bem.info/libs/bem-components/)
+* bem-core [2.9.0](https://github.com/bem/bem-core/releases/tag/v2.9.0)
+* ...bem-components [2.5.0](https://github.com/bem/bem-components/releases/tag/v2.5.0)
 
-## bem-core
-* Базовые блоки
-* Текущая версия [2.8.0](https://ru.bem.info/libs/bem-core/v2.8.0/changelog/#280)
-* Поддержка [i18n](https://ru.bem.info/libs/bem-core/v2.8.0/desktop/i18n/)
-
-## bem-histroy
-* Поможет для SPA
-* Текущая версия 3.1.0
-* Блоки: `uri`, `location`, `history`
-
-## bem-components
-* Как Bootstrap, только лучше
-* ...Построена по БЭМ-методологии
-* ...Тема опциональна
-* ...Кроссплатформенность
-* ...Проработана доступность
-* ...Декларативные шаблоны (опционально)
-* ...Декларативный JS
-* ...Полное покрытые тестами
-
-## **[Demo](http://tadatuta.github.io/bem-components-demo/)**
-
-## **[Showcase](https://ru.bem.info/libs/bem-components/current/showcase/)**
-
-## Использование
-* Dist
-    * ...Подключение с CDN
-    * ...bower / npm
-    * ...Скачать архив
-* ...Собирать собственную сборку
-* ...Предкомпилированная версия
-* ...Собрать из исходников
-
-## **[Подключение с CDN](https://ru.bem.info/libs/bem-components/v2.4.0/#Подключение-файлов-с-cdn)**
-
-## **[Используем блоки](http://jsfiddle.net/)**
+## **Инструменты**
 
 ## Инструменты
-* bem-tools
-* ...ENB
-* ...Модульная сборка
-* ...Снова bem-tools
-
-## bem-tools
-* В последнем релизе научили использовать ENB
-* Закопали
+* ENB
+* bemmet
+* Модульная сборка
+* Снова bem-tools
 
 ## ENB
-* Регулярно выпускаем новые версии
-* ...[ru.bem.info/tools/bem/enb-bem/](https://ru.bem.info/tools/bem/enb-bem/)
-* ...[github.com/enb-make/](https://github.com/enb-make/)
-* ...[github.com/enb-bem/](https://github.com/enb-bem/)
-* ...[96 пакетов](https://www.npmjs.com/search?q=ENB) в NPM
+* [ru.bem.info/tools/bem/enb-bem/](https://ru.bem.info/tools/bem/enb-bem/)
+* ...Регулярно появляются новые версии
+* ...enb-make + enb-bem → [github.com/enb/](https://github.com/enb/)
+* ...[enb-bem-tmpl-specs](https://github.com/enb/enb-bem-tmpl-specs)
+* ...[enb-define](https://github.com/tadatuta/enb-define)
+* ...[103 пакета](https://www.npmjs.com/search?q=ENB) в NPM
+
+## bemmet
+* [bemmet](http://tadatuta.github.io/bemmet/)
+* ...Работает в node.js и браузере
+* ...[atom-bemmet](https://github.com/tadatuta/atom-bemmet)
+* ...[sublime-bemmet](https://github.com/tadatuta/sublime-bemmet)
 
 ## Модульная сборка
 * Сборка БЭМ-проектов без bem-tools
@@ -126,9 +126,10 @@ layout: default
 * ...[bem-tools-find](https://github.com/bem-contrib/bem-tools-find)
 
 ## Документация
-* Мы полностью переписали [Методологию](https://ru.bem.info/method/)
+* Новая [Методологию](https://ru.bem.info/method/)
 * ...Перевели на [английский](https://en.bem.info/method/)
-* ...Сегодня вышла полностью переписанная документация на bem-xjst
+* ...Новая полностью переписанная [документация на bem-xjst](https://github.com/bem/bem-xjst/tree/master/docs/ru)
+* ...У нас есть вакансия техписа
 
 ## Сообщество: разработка, события
 * bem-incubator стал [bem-contrib](https://github.com/bem-contrib)
@@ -143,6 +144,7 @@ layout: default
 * ...[bem-scrollspy](https://github.com/bem-contrib/bem-scrollspy)
 * ...[stat-counters](https://github.com/bem-contrib/stat-counters)
 * ...[bem-flux](https://github.com/bem-contrib/bem-flux)
+* ...[bem-redux](https://github.com/bem-contrib/bem-redux)
 * ...[bem-typography](https://github.com/bem-contrib/bem-typography)
 
 ## Еще библиотеки от сообщества
@@ -153,19 +155,17 @@ layout: default
 ## Прототипирование на bem-components
 * [BEM Design](https://ru.bem.info/forum/882/)
 
-## Общаемся в реальном времени
-* [Slack Веб-стандартов](http://slack.web-standards.ru/)
-
 ## События
 * Проводим [онлайн БЭМинары](https://ru.bem.info/forum/?labels=news%2Cevents&sort=created&direction=desc)
-* ...Следующий будет 10 марта. Посвящен библиотеке bem-components
+* ...Следующий будет про BEMTREE
 * ...[FrontTalks](http://dump-conf.ru/section/8/) 8 апреля. Про БЭМ без bem-tools
+* ...Frontend Party в Питере, 22 апреля. Модульная сборка БЭМ-проектов
 * ...[FrontendUnited](http://frontendunited.org/speakers/vladimir-grinenko) 27-28 мая. Про живые стайлгайды
 
 ## Планы на будущее
-* [Новый bem.info](http://bem.harisov.name/methodology/)
-* ...Будем планомерно продолжать
-* ...Захватим мир
+* [Новый bem.info](http://vithar.github.io/bem.info/ru/methodology/)
+    * Переезжаем в Qloud
+* ...Хакатон по БЭМ-инструментам 2-3 апреля
 
 ## **Ваши вопросы!**
 

@@ -13,8 +13,8 @@ kramdown:
 
 presentation:
     title: Новости из мира БЭМ
-    service: Субботник
-    nda: false
+    service: пЯТЬница
+    nda: true
 
 author:
     name: Владимир Гриненко
